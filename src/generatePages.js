@@ -196,7 +196,7 @@ function generateAddBookmarkPage(){
         <input type="text" name="title" class = "title" placeholder="Name">
       </div>
       <div>
-        <input type="text" name="URL" class ="url" placeholder="URL" required>
+        <input type="url" name="URL" class ="url" placeholder="URL" required>
       </div>
       
 
