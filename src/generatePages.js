@@ -3,6 +3,7 @@ import $ from 'jquery';
 import 'normalize.css';
 import './index.css';
 import store from './store.js'
+
 const imgSize = `30`
 const star1 = `<img src="../images/star.png" height="${imgSize}" width="${imgSize}">`;
 const star2 = `<img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}">`;
