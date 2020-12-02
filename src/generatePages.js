@@ -157,7 +157,7 @@ function generateDetailedPage(id) {
             <span class="visitSite">Visit Site</span>
             </button></a>
               <h3>${currentStar}</h3>
-              <button class = "removeBookmark" id ="remove"><img src = "./images/trash.png" height = "50" width="50"></button>
+              <button class = "removeBookmark" id ="remove"><img src = "../images/trash.png" height = "50" width="50"></button>
             </div>
             <p>${store.filtered[i].desc}</p>
           </div>
