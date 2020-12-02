@@ -4,11 +4,11 @@ import 'normalize.css';
 import './index.css';
 import store from './store.js'
 const imgSize = `30`
-const star1 = `<img src="./images/star.png" height="${imgSize}" width="${imgSize}">`;
-const star2 = `<img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}">`;
-const star3 = `<img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}">`;
-const star4 = `<img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}">`;
-const star5 = `<img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}"><img src="./images/star.png" height="${imgSize}" width="${imgSize}">`;
+const star1 = `<img src="../images/star.png" height="${imgSize}" width="${imgSize}">`;
+const star2 = `<img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}">`;
+const star3 = `<img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}">`;
+const star4 = `<img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}">`;
+const star5 = `<img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}"><img src="../images/star.png" height="${imgSize}" width="${imgSize}">`;
 
 function render() {
   store.ratingFilter(store.filter);
@@ -202,21 +202,21 @@ function generateAddBookmarkPage(){
 
       <div>
         <input type="radio" id="rating1" name="rating" value="1" required>
-        <label for="rating"><img src="./images/star.png" height="40" width="40"></label>
+        <label for="rating"><img src="../images/star.png" height="40" width="40"></label>
         <input type="radio" id="rating2" name="rating" value="2" required>
-        <label for="rating"><img src="./images/star.png" height="40" width="40"><img src="./images/star.png" height="40"
+        <label for="rating"><img src="../images/star.png" height="40" width="40"><img src="../images/star.png" height="40"
             width="40"></label>
         <input type="radio" id="rating3" name="rating" value="3" required>
-        <label for="rating"><img src="./images/star.png" height="40" width="40"><img src="./images/star.png" height="40"
-            width="40"><img src="./images/star.png" height="40" width="40"></label>
+        <label for="rating"><img src="../images/star.png" height="40" width="40"><img src="../images/star.png" height="40"
+            width="40"><img src="../images/star.png" height="40" width="40"></label>
         <input type="radio" id="rating4" name="rating" value="4" required>
-        <label for="rating"><img src="./images/star.png" height="40" width="40"><img src="./images/star.png" height="40"
-            width="40"><img src="./images/star.png" height="40" width="40"><img src="./images/star.png" height="40"
+        <label for="rating"><img src="../images/star.png" height="40" width="40"><img src="../images/star.png" height="40"
+            width="40"><img src="../images/star.png" height="40" width="40"><img src="../images/star.png" height="40"
             width="40"></label>
         <input type="radio" id="rating5" name="rating" value="5" required>
-        <label for="rating"><img src="./images/star.png" height="40" width="40"><img src="./images/star.png" height="40"
-            width="40"><img src="./images/star.png" height="40" width="40"><img src="./images/star.png" height="40"
-            width="40"><img src="./images/star.png" height="40" width="40"></label>
+        <label for="rating"><img src="../images/star.png" height="40" width="40"><img src="../images/star.png" height="40"
+            width="40"><img src="../images/star.png" height="40" width="40"><img src="../images/star.png" height="40"
+            width="40"><img src="../images/star.png" height="40" width="40"></label>
       </div>
       <div>
         <textarea name="description" class="message" placeholder="Description"></textarea>
