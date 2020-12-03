@@ -3,7 +3,16 @@ import $ from 'jquery';
 import api from './api';
 import store from './store';
 
-
+const handler = function () {
+  handleBookmark();
+  handleNewBookmark();
+  handleCancel();
+  handleFilter()
+  handleRemoveBookmark();
+  handleUnexpanding();
+  handleNewBookmarkForm();
+  handleCloseError();
+}
 function handleBookmark(){
   $('.bookmarkApp').on('click', '.listButton', event => {
     const id = getItemIdFromElement(event.currentTarget);
@@ -111,12 +120,5 @@ const getItemIdFromElement = function (item) {
 
 
 export default {
-  handleBookmark,
-  handleNewBookmark,
-  handleCancel,
-  handleFilter,
-  handleRemoveBookmark,
-  handleUnexpanding,
-  handleNewBookmarkForm,
-  handleCloseError
+  handler
 };

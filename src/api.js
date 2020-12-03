@@ -53,7 +53,6 @@ function formatFormData(data){
 function createBookmark(bookmark){
   let newBookmark = formatFormData(bookmark);
   let newItem = JSON.stringify( newBookmark )
-  console.log(newItem);
   return fetch(`${BASE_URL}`,
   {
     method:`POST`,

@@ -13,14 +13,7 @@ function main(){
     gen.render();
   });
 
-handle.handleBookmark();
-handle.handleFilter();
-handle.handleNewBookmark();
-handle.handleCancel();
-handle.handleRemoveBookmark();
-handle.handleUnexpanding();
-handle.handleNewBookmarkForm();
-handle.handleCloseError();
+handle.handler();
 }
 
 $(main)
