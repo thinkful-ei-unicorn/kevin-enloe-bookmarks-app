@@ -3,7 +3,7 @@
 }
 
 body{
-  background-image: url(../images/background.png);
+  background-image: url(./images/background.png);
   
 }
 
@@ -26,7 +26,7 @@ p{
 
 button{
   margin-top: 10px;
-  background-image: url(../images/listKey.png);
+  background-image: url(./images/listKey.png);
   background-size: 100% 100%;
   background-color:white;
   border-radius: 12px;
@@ -150,7 +150,7 @@ fieldset{
 input[type="submit"]{
   height: 50px;
   font-size: 40px;
-  background-image: url(../images/listKey.png);
+  background-image: url(./images/listKey.png);
   background-size: 100% 100%;
   border-radius: 12px;
   border:none;
