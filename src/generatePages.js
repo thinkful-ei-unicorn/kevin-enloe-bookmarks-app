@@ -193,39 +193,39 @@ function generateAddBookmarkPage(){
   <div class="bookmarks-notexpanded">
   <h2>My Bookmarks</h2>
 
-    <form class="addNewBookmark">
-      <p>Add New Resource:</p>
+    <form class="addNewBookmark" label="NewBookmarkForm">
+      <H3>Add New Resource:</H3>
       <div>
-        <input type="text" name="title" class = "title" placeholder="Name">
+        <input type="text" aria-label="title" name="title" class = "title" placeholder="Name">
       </div>
       <div>
-        <input type="url" name="URL" class ="url" placeholder="URL" required>
+        <input type="url" aria-label="url" name="URL" class ="url" placeholder="URL" required>
       </div>
       
 
       <div>
-        <input type="radio" id="rating1" name="rating" value="1" required>
+        <input type="radio" aria-label="1 Star "id="rating1" name="rating" value="1" required>
         <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"></label>
-        <input type="radio" id="rating2" name="rating" value="2" required>
-        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} height="40"
+        <input type="radio" aria-label="2 Stars" id="rating2" name="rating" value="2" required>
+        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} alt="rating in stars" height="40"
             width="40"></label>
-        <input type="radio" id="rating3" name="rating" value="3" required>
-        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} height="40"
+        <input type="radio" aria-label="3 Stars" id="rating3" name="rating" value="3" required>
+        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} alt="rating in stars" height="40"
             width="40"><img src=${star} alt="rating in stars" height="40" width="40"></label>
-        <input type="radio" id="rating4" name="rating" value="4" required>
-        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} height="40"
-            width="40"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} height="40"
+        <input type="radio" aria-label="4 Stars" id="rating4" name="rating" value="4" required>
+        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} alt="rating in stars" height="40"
+            width="40"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} alt="rating in stars" height="40"
             width="40"></label>
-        <input type="radio" id="rating5" name="rating" value="5" required>
-        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} height="40"
-            width="40"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} height="40"
+        <input type="radio" aria-label="5 Stars" id="rating5" name="rating" value="5" required>
+        <label for="rating"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} alt="rating in stars" height="40"
+            width="40"><img src=${star} alt="rating in stars" height="40" width="40"><img src=${star} alt="rating in stars" height="40"
             width="40"><img src=${star} alt="rating in stars" height="40" width="40"></label>
       </div>
       <div>
-        <textarea name="description" class="message" placeholder="Description"></textarea>
+        <textarea aria-label="description" name="description" class="message" placeholder="Description"></textarea>
         <br>
         
-        <input type="submit">
+        <input type="submit" aria-label="new bookmark submit">
     </form>
     
   </div>
